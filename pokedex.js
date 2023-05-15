@@ -25,7 +25,6 @@ const getPokemon = async () => {
 		</div>
 	  `;
 	} catch (error) {
-	  console.error(error);
+	  console.error(`There was an error: ${error.message}`);
 	}
   };
-  
