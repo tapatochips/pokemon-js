@@ -1,5 +1,4 @@
 const getPokemon = async () => {
-	event.preventDefault();
 	const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
 	const url = `https://pokeapi.co/api/v2/pokemon/${pokemonName}/`;
   
